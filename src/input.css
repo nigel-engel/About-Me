@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes fadeOut {
+  from {
+    background-color: #1d4ed8;
+  }
+  to {
+    background-color: transparent;
+  }
+}
+
+.bg-blue-fade {
+  animation: fadeOut 1s forwards; /* Adjust the duration as needed */
+}
+
